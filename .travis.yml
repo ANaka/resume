@@ -26,12 +26,12 @@ jobs:
         - pdflatex -halt-on-error -interaction=nonstopmode resume.tex
       deploy:
         provider: releases
-        api_key:
-          secure: roK7og03xDl7GjMhqWoOCb9gBdimZIdpd5PqHyQwQqhnvG4gROAX76La8JLdUvDNIeEhndQTlu3aUp5xflNFBC5mm6aV/CRwv8Q7Jw3zehYQNxF9cLTRfUcmrM3JwgbEqi8muHfQ069dNz9qISumQB/oMWhldtjRm/3IjUJuSrM=
+        # api_key:
+        #   secure: roK7og03xDl7GjMhqWoOCb9gBdimZIdpd5PqHyQwQqhnvG4gROAX76La8JLdUvDNIeEhndQTlu3aUp5xflNFBC5mm6aV/CRwv8Q7Jw3zehYQNxF9cLTRfUcmrM3JwgbEqi8muHfQ069dNz9qISumQB/oMWhldtjRm/3IjUJuSrM=
         file: resume.pdf
         overwrite: true
         skip_cleanup: true
         on:
           branch: master
           tags: true
-          repo: MurphyMarkW/resume
+          repo: Anaka/resume
