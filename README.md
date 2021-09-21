@@ -1,7 +1,9 @@
-Mark's Résumé
+Alex's Résumé
 ======
 ![language LaTeX](https://img.shields.io/badge/language-LaTeX-lightgrey.svg?longCache=true&style=flat)
-[![Build Status](https://app.travis-ci.com/MurphyMarkW/resume.svg?branch=master)](https://app.travis-ci.com/MurphyMarkW/resume)
+[![Build Status](https://app.travis-ci.com/MurphyMarkW/resume.svg?branch=master)](https://app.travis-ci.com/anaka/resume)
+
+Forked from @MurphyMarkW, testing it out
 
 Hey there! This is my resume.
 
